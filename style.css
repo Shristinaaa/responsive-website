@@ -11,17 +11,17 @@ body{
 	width: 40%;
 }
 
-.nav{
+.monitor{
 	width:60%;
 }
 
-.nav ul{
+.monitor ul{
 	list-style: none;
 	padding-right: 15px;
 	padding-bottom: 5px;
 }
 
-.nav ul a{
+.monitor ul a{
 	text-decoration: none;
 	color: white;
 	float: left;
@@ -85,14 +85,61 @@ img{
 	display: flex;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-   	background-color: black;
-  }
+.mobile{
+	display: none;
+}
 
-  img{
-  	width: 200px;
-  }
+@media only screen and (max-width: 400px) {
+	body{
+		background-color: pink;
+	}
+
+	.monitor{
+		display: none;
+	}
+
+	.mobile{
+		display: block;
+		position: absolute;
+	}
+
+	.icon{
+		margin-left:35px;
+	}
+
+
+	nav>ul{
+		list-style: none;
+		width: 80%;
+		display: none;
+	}
+
+	nav ul a{
+		text-decoration: none;
+		color: white;
+	}
+
+	nav:hover ul{
+		display: block;
+		background-color: black;
+	}
+
+	.main{
+		margin-top: 30px;
+		margin-left: 10px;
+		display: block;
+	}
+
+	.description{
+		margin-left: 10px;
+		width: 100%;
+	}
+
+	img{
+		width:200px;
+		margin-top:50px;
+	}
+
 
 }
 
