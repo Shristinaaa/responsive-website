@@ -1,5 +1,6 @@
 body{
 	background-color: purple;
+	font-family: 'Open Sans';
 }
 
 .header{
@@ -58,6 +59,7 @@ body{
 }
 .description{
 	width: 50%;
+	margin-left: 80px;
 }
 
 .read{
@@ -68,7 +70,12 @@ body{
 }
 
 img{
-	width:500px;
+	width:450px;
+	margin-left: 50px;
+}
+
+.main{
+	display: flex;
 }
 
 
