@@ -1,8 +1,75 @@
 body{
 	background-color: purple;
-	color:white;
 }
 
-/*.fas{
-	color:white;
-}*/
+.header{
+	display: flex;
+}
+.icon{
+	color: white;
+	width: 40%;
+}
+
+.nav{
+	width:60%;
+}
+
+.nav ul{
+	list-style: none;
+}
+
+.nav ul a{
+	text-decoration: none;
+	color: white;
+	float: left;
+	margin-right: 20px;
+}
+
+.login{
+	margin-top: -7px;
+	background-color: white;
+	color: purple;
+	font-size: 17px;
+}
+
+.dropdown{
+	position: relative;
+}
+
+.dropdown-content{
+	position: absolute;
+	top:25px;
+	background-color: black;
+	display: none;
+}
+
+.dropdown-content li{
+	margin-top: 12px;
+	padding-right: 14px;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+.main{
+	margin-top: 150px;
+	color: white;
+}
+.description{
+	width: 50%;
+}
+
+.read{
+	border:1px solid white;
+	background-color: purple;
+	color: white;
+	font-size:18px;
+}
+
+img{
+	width:500px;
+}
+
+
+
