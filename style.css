@@ -147,7 +147,7 @@ img {
   margin: 30px auto;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 768px) {
   body {
     background-color: rgb(156, 59, 156);
     width: 90%;
