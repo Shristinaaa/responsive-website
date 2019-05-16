@@ -163,7 +163,7 @@ img {
   }
 
   .icon {
-    margin-left: 35px;
+    margin-left: 80px;
     width: 100%;
   }
 
@@ -228,7 +228,8 @@ img {
   }
 
   .burger {
-    margin: 20px 0 10px 15px;
+    margin: 25px 0 10px 15px;
+    font-size: 20px;
     color: white;
   }
 
